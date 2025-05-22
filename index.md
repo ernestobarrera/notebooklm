@@ -1,40 +1,46 @@
 ---
 layout: default
-title: About the Workshop 
+title: Acerca del Taller
 nav_order: 1
 ---
-<img src="images/5-notebooklm-try.png" style="float:right;width:350px;padding:10px;" alt="Decorative">
 
-# GenAI: NotebookLM a Personal RAG Tool for Research & Productivity (_Intermediate_)
+<img src="images/5-notebooklm-try.png" style="float:right;width:350px;padding:10px;" alt="Decorativo">
 
-- Pre-workshop activities: 10 min 
-- Introductory presentation: 15 min
-- Active learning time: 60 min
+# GenAI: NotebookLM como Herramienta Personal RAG para Investigación y Productividad (_Nivel intermedio_)
 
-## About the workshop 
-- This workshop focuses on using NoteBookLM, a personal Generative AI (GenAI) tool, that becomes an expert on the specific documents you provide.
-- Crucially, NoteBookLM's functionality is directly dependent on the documents you upload. It uses these documents as its training data.
-- Participants will engage in hands-on activities to explore GenAI tool usage and learn how to evaluate output for accuracy and potential biases, based on the uploaded documents.
-- The workshop will also promote informed and responsible use of cloud-based GenAI.
+- Actividades previas al taller: 10 min
+- Presentación introductoria: 15 min
+- Aprendizaje activo: 60 min
 
-## Learning objectives
+## Sobre el taller
 
-At the end of this workshop, you will be able to:
+- Este taller se centra en el uso de **NotebookLM**, una herramienta personal de IA generativa (GenAI) que se convierte en experta en los documentos que tú mismo proporcionas.
+- Es fundamental comprender que la funcionalidad de NotebookLM depende directamente de los documentos que subas: utiliza esos documentos como base de entrenamiento.
+- Los participantes realizarán actividades prácticas para explorar el uso de esta herramienta y aprender a evaluar la precisión y posibles sesgos de las respuestas generadas, siempre a partir de los documentos aportados.
+- El taller también promueve el uso informado y responsable de la IA generativa en la nube.
 
-1. Describe to a friend the fundamental capabilities of NotebookLM, including Text generation, Summarization, Translation, Question-answering
-2. Notebook guide: Use the built-in prompts in the  “Notebook guide” to quickly create: Briefing documents & an Audio summary of the documents in a 2-person podcast format
-3. Create Lecture or Meeting Transcription Summarizations: Prompt NotebookLM to create a summary based on who is the intended audience for the summary, and the purpose of the summary (for example meeting notes).
-4. Create Research Summaries: Efficiently summarize and analyze research literature such as journal articles, reports, presentations and videos including citations. Verify all facts and claims.
-7. Ideation & Brainstorming: Evaluate a group of journal articles for gaps in the literature and potential research questions to fill those gaps or explore a related topic.
-8. Summarize Survey Feedback: Summarize large numbers of short-answer survey responses, to help you quickly understand the key issues being brought up by respondents. 
-9. Presentation Assistance: Based on a journal article create a script along with slide titles for a Presentation with Google Slides or Microsoft PowerPoint.
+## Objetivos de aprendizaje
 
-[NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }
+Al finalizar este taller, podrás:
 
-## Generative AI Workshop Pathway
+1. Explicar a otra persona las capacidades fundamentales de NotebookLM: generación de texto, resumen, traducción, preguntas y respuestas.
+2. Utilizar la función “Guía del cuaderno” para crear rápidamente documentos informativos y resúmenes de audio en formato de pódcast de dos personas.
+3. Crear resúmenes de transcripciones de clases o reuniones: pedir a NotebookLM que resuma en función del público y el objetivo del resumen (por ejemplo, notas de reunión).
+4. Crear resúmenes de investigación: resumir y analizar de manera eficiente literatura científica (artículos, informes, presentaciones, vídeos) incluyendo citas y comprobando la veracidad de los datos.
+5. Ideación y lluvia de ideas: evaluar un conjunto de artículos científicos para detectar lagunas en la literatura y proponer preguntas de investigación nuevas.
+6. Resumir resultados de encuestas: sintetizar muchas respuestas abiertas de encuestas para identificar los temas clave destacados por los participantes.
+7. Asistencia para presentaciones: crear un guion y títulos de diapositivas para una presentación (Google Slides o PowerPoint) a partir de un artículo científico.
 
-This workshop is part of our Generative AI Workshop Pathway. The Pathway workshops are designed to help subject area experts and non-experts, and help meet the needs of students, faculty, & staff by offering foundational to advanced research & productivity skills training:
+[NEXT STEP: Actividades previas al taller](pre-workshop.html){: .btn .btn-blue }
 
-- **[GenAI Introductory Workshops](https://uviclibraries.github.io/genai-pathway/#introductory-workshops){:target="_blank"}**
-- **[GenAI Intermediate Workshops](https://uviclibraries.github.io/genai-pathway/#intermediate-workshops){:target="_blank"}**
-- **[GenAI Advanced Workshops](https://uviclibraries.github.io/genai-pathway/#intermediate-workshops){:target="_blank"}**
+## Ruta de talleres sobre IA generativa
+
+Este taller forma parte de nuestro itinerario de formación en IA generativa. Los talleres están diseñados para ayudar tanto a expertos en áreas temáticas como a principiantes, cubriendo desde habilidades básicas hasta avanzadas en investigación y productividad:
+
+- **[Talleres Introductorios de GenAI](https://uviclibraries.github.io/genai-pathway/#introductory-workshops){:target=\"_blank\"}**
+- **[Talleres Intermedios de GenAI](https://uviclibraries.github.io/genai-pathway/#intermediate-workshops){:target=\"_blank\"}**
+- **[Talleres Avanzados de GenAI](https://uviclibraries.github.io/genai-pathway/#intermediate-workshops){:target=\"_blank\"}**
+
+---
+
+> **Créditos:** Basado en [genai-notebooklm](https://github.com/uviclibraries/genai-notebooklm) (Uvic Libraries) bajo licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Traducción y adaptación: Ernesto Barrera.
