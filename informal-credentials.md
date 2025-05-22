@@ -1,27 +1,30 @@
 ---
 layout: default
-title: Earn a Workshop Badge
+title: Obtén una insignia del taller
 nav_order: 9
 ---
-<img src="images/notebooklm-badge.png" style="float:right;width:180px;"> 
 
-# Informal Credentials or Digital Badges
+<img src="images/notebooklm-badge.png" style="float:right;width:180px;">
 
-The Digital Scholarship Commons (DSC) awards digital badges, or informal credentialing, for the successful completion of this workshop. We award badges as an informal credential in order to help workshop participants, who wish to, make public the fact that they have developed intermediate research-related GenAI skills. 
+# Credenciales informales o insignias digitales
 
-DSC electronic badges are [cryptographically signed](https://badgecheck.io/){:target="_blank"} and have the recipient's email address embedded in the signing so that it cannot be used by anyone else. Also embedded in the badge is a [link to the learning objectives for the workshop](https://badgr.com/backpack/badges/607767abb78d4c65fc8f1676){:target="_blank"} so that employers or anyone who sees the badge can determine what was done to earn the badge. 
+El Digital Scholarship Commons (DSC) otorga insignias digitales o credenciales informales por completar con éxito este taller. Estas insignias permiten a los participantes hacer público que han desarrollado habilidades intermedias en GenAI para investigación.
 
-DSC badges are awarded at the request of workshop participants after a DSC staff member has verified that they have successfully completed one or more of the workshop's hands-on workshop activities. You can see a list of all the badges offered by the DSC on our [Badgr page](https://badgr.com/public/issuers/HI5nEIsFQKiFDSGJWrYNxQ/badges){:target="_blank"}.
+Las insignias electrónicas del DSC están [firmadas criptográficamente](https://badgecheck.io/){:target="\_blank"} e incluyen el correo electrónico del destinatario, por lo que no pueden ser usadas por otra persona. También incluyen un [enlace a los objetivos de aprendizaje del taller](https://badgr.com/backpack/badges/607767abb78d4c65fc8f1676){:target="\_blank"} para que empleadores o cualquier persona pueda ver qué se hizo para obtener la insignia.
 
-### Earn an Informal Credential or Badge for Generative AI: NotebookLM - A Personal Tool for Research & Productivity
-To earn a workshop badge please email screenshots or photographs of the following to [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="_blank"}:
+Las insignias se otorgan a petición de los participantes, tras verificar que han completado una o más actividades prácticas del taller. Puedes ver todas las insignias ofrecidas por el DSC en nuestra [página de Badgr](https://badgr.com/public/issuers/HI5nEIsFQKiFDSGJWrYNxQ/badges){:target="\_blank"}.
 
-- Submit an image of a briefing document & an Audio summary of the documents in a 2-person podcast format.
-- Submit an image of the document summary based on who is the intended audience for the summary, and the purpose of the summary (for example meeting notes).
-- Submit an image of suggested potential research questions to fill those gaps in the three journal articles or explore a related topic.
-- Submit an image of the summary of short-answer survey responses.
+### Cómo obtener una insignia del taller "GenAI: NotebookLM - Herramienta personal para investigación y productividad"
 
-### Learn how you can share your DSC Badge
-To learn more about DSC badges and how you can share your them on LinkedIn profile, personal website, or resume, check our [DSC Badges webpage](https://onlineacademiccommunity.uvic.ca/dsc/badges/){:target="_blank"}.
+Para obtener tu insignia, envía capturas de pantalla o fotos de lo siguiente a [dscommons@uvic.ca](mailto:dscommons@uvic.ca){:target="\_blank"}:
 
-[NEXT STEP: Additional Resources](additional-resources.html){: .btn .btn-blue }
+- Imagen de un documento informativo y un resumen de audio en formato pódcast de dos personas.
+- Imagen del resumen de un documento, indicando el público objetivo y el propósito del resumen (por ejemplo, notas de reunión).
+- Imagen de preguntas de investigación sugeridas para cubrir vacíos en los tres artículos o explorar un tema relacionado.
+- Imagen del resumen de respuestas abiertas de encuestas.
+
+### Cómo compartir tu insignia DSC
+
+Para saber cómo compartir tu insignia en LinkedIn, tu web personal o tu CV, consulta nuestra [página de insignias DSC](https://onlineacademiccommunity.uvic.ca/dsc/badges/){:target="\_blank"}.
+
+[SIGUIENTE PASO: Recursos adicionales](additional-resources.md){: .btn .btn-blue }

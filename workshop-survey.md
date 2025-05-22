@@ -1,12 +1,13 @@
 ---
 layout: default
 nav_order: 11
-title: Workshop Evaluation Survey
+title: Encuesta de evaluación del taller
 ---
-# Workshop Evaluation Survey
 
-If you feel so inclined, please complete the following survey to help us ensure the quality of our workshops:
+# Encuesta de evaluación del taller
 
-[Please let us know how did we did?](http://lib.uvic.ca/eval){:target="_blank"}
+Si lo deseas, por favor completa la siguiente encuesta para ayudarnos a mejorar la calidad de nuestros talleres:
 
-[NEXT STEP: Land acknowledgement](land-acknowledgement.html){: .btn .btn-blue }
+[Cuéntanos cómo te fue en el taller](http://lib.uvic.ca/eval){:target="\_blank"}
+
+[SIGUIENTE PASO: Reconocimiento de territorio](land-acknowledgement.html){: .btn .btn-blue }

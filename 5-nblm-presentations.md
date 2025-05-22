@@ -1,125 +1,144 @@
 ---
 layout: default
-title: 5 - Article to Presentation
+title: 5 - Del artículo a la presentación
 nav_order: 8
 parent: Workshop Activities
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
---- 
-# Convert an Article to a Presentation
-<img src="images/6-chatgpt-powerpoint.jpg" style="float:right;width:400px;padding:10px;" alt="GenAI helping someone create a PowerPoint presentation">
-You've written an essay or journal article, and now you need to create a conference presentation? NotebookLM can help. In this activity, with the help of NotebookLM and Meta.ai, you will create a presentation based on a journal article or essay.
-> NOTE 1: Before using NotebookLM to help you create a presentation based on a paper you've written, be sure to check-in with your instructor to make sure that they will allow you to use NotebookLM in this way.
-> NOTE 2: Like all other Generative AI tools, NotebookLM will sometimes make mistakes, although because you are providing it with training data, it will likely make fewer mistakes than general purpose Generative AI tools. Always research any factual claims it makes if you are not a subject area expert. 
+---
 
-If you have any questions or get stuck as you work through this exercise, please ask the instructor for assistance.
+# Convertir un artículo en una presentación
 
-## Getting Started
-1. **If you completed the first activity in this workshop**: Please use the notebook from the first activity with the 3 badging journal articles. To do this:
-<img src="images/5-nblm-logo.png" style="float:right;width:80px;padding:10px;" alt="NotebookLM logo">
-  -  Return to the NotebookLM home page with the 3 articles by first clicking the **black circular NotebookLM logo** in the top left of the web application.
-  <img src="images/5-notebook-button.png" style="float:right;width:300px;padding:10px;" alt="NotebookLM button">
-  -  Next, click on the **The Digital Badge Ecosystem in Libraries** notebook to get into the notebook we'll be using for this activity.
-2. **If you haven't completed the first activity**, No worries! Please complete the following first two steps of this workshop's starter activity before returning here to continue on to learn how you can use NotebookLM to assist you in creating a presentation:
-  - [Logon to NotebookLM](1-nblm-notebook.html#create-a-notebook--add-documents-to-it){:target="_blank"}
-  - [Create a Notebook & Add Documents to It](1-nblm-notebook.html#create-a-notebook--add-documents-to-it){:target="_blank"}
-3. Unlike the first activity in this workshop where we used three articles as training data, in this activity we are using only one of them to create a presentation (in either PowerPoint or Google Slides). This is to replicate a typical use case where you've written an assignment or journal article and need to create an accompanying presentation for it.
-<img src="images/5-one-article-selected.png" style="float:right;width:300px;padding:10px;border: 1px solid #555;" alt="Only one article selected">
-  - Click on the checked boxes beside, **badge-article-2.pdf** & **badge-article-3.pdf** to deselect these two articles so that NoteboolLM will only use the one remaining selected article to respond to your prompts.
-4. If you haven't created a PowerPoint or Google Slides document to start recording suggestions from NotebookLM, now would be a good time to create one.
-   - If you'd like, you can use a [UVic presentation template](https://docs.google.com/presentation/d/1fuhWOJu_sq0ivUTY1Ul2h0t7Kff2wZZ0Y5NSnEMh0bY/template/preview){:target="_blank"} in Google Slides, or you can create your template. Make sure to be logged into your Gmail or Google account before you click on the blue **Use Template** button on the top right of the window.
-   - If you choose to use the UVic template, feel to to pick and choose from the three different styles of the template. 
+<img src="images/6-chatgpt-powerpoint.jpg" style="float:right;width:400px;padding:10px;" alt="GenAI ayudando a crear una presentación">
+¿Has escrito un ensayo o artículo científico y ahora necesitas crear una presentación para un congreso? NotebookLM puede ayudarte. En esta actividad, con la ayuda de NotebookLM y Meta.ai, crearás una presentación basada en un artículo o ensayo.
+> NOTA 1: Antes de usar NotebookLM para crear una presentación basada en un trabajo propio, consulta con tu instructor para asegurarte de que está permitido.
+> NOTA 2: Como todas las herramientas de IA generativa, NotebookLM a veces comete errores, aunque al proporcionarle datos de entrenamiento, probablemente cometa menos errores que herramientas de IA generalistas. Siempre verifica cualquier afirmación factual si no eres experto en el tema.
 
-## Catchy Presentation Titles
-Get your presentation off to a good start with a catchy presentation title. Let's get some suggestions from NotebookLM:
-1. In the chat box at the bottom of the page copy and paste the following prompt: ```Suggest some attention-grabbing, catchy titles for my presentation at an academic conference to draw in my audience, who will consist of my academic peers.```
-   - How do the suggestions look? Are there any that look appropriate and catchy for the audience you'll be presenting to?
-   - If none of the titles look appropriate, you might want to give NotebookLM a follow-up prompt something like this: ```Give me 5 more suggested presentation titles that are no longer than 6 words long.```
-   - Copy and paste the title you like best and paste it into the title slide of your presentation. The title I've chosen given my goals for the presentation is: _Badges as Evidence of Achievement & Skills_.
+Si tienes preguntas o te atoras durante el ejercicio, por favor pide ayuda al instructor.
 
-## Create Presentation Speaker Notes Based on an Article
-Now we'll prompt NotebookLM to suggest ideas for speaker notes, with minimal text on each slide. Research shows that text-heavy slides read by presenters are more difficult to member than slides with a title, image, and minimal additional text that are narrated by the presenter. With that in mind, we will craft a prompt to help suggest slide titles and detailed speaker notes with minimal text on the slides (to conform with the best practices from Multimedia Learning Theory, in order to help people watching the presentation remember more of it).
-1. In the chat box at the bottom of the page copy and paste the following prompt: ```Create a 10-minute long presentation, with slide titles, and detailed speaker notes, with minimal text on the slides. The audience is a group of graduate students and professors. Start the presentation with an interesting and compelling story. Use as many slides as necessary keeping in mind that I like to use a lot of large images in my presentations.```
-2. Copy the suggested speaker notes and paste them into your working document:
-   - The easiest way to do this is to click on the **Copy** button at the bottom of the chat, and then **Paste** the text into a **Google Doc** or **Microsoft Word document** to edit the text suggested by NotebookLM.
-   - Click on the **Save to note** button on the left to keep a copy of the chat for future reference.
-<img src="images/5-copy-save.png" style="width:600px;padding:10px;border: 1px solid #555;" alt="Copy text and save note">
-3. Now that the presentation outline is in an editable Google or Word document you can personalize the content, wording, and ordering, as well as correct any factual errors that it's made. As you read the suggested text, ask yourself the following questions as you edit and improve the text: 
-> - What has it done well?
-> - What has it not done well?
-> - What mistakes had it made?
-> - Will using NotebookLM save me any time compared to creating the presentation on my own?
-> - What edits do I need to make to the suggested text?
-<img src="images/5-note-title.png" style="float:right;width:350px;padding:10px;border: 1px solid #555;" alt="Note title">
-4. Note, that if you clicked on the **Save to note** button, the saved note will appear in the bottom half of the "Studio" panel on the right of the web app. The auto-generated title for my note was, "**Digital Badges: Empowering...**" 
+## Primeros pasos
 
-## Build & Customize Your Presentation Title Slide & Speaker Notes
-Now that you have a title, and draft presentation outline with speaker notes, it's time to start to build and customize the presentation in Google Slides or the PowerPoint document you created in the Getting Started portion of this activity:
-1. Select the title slide that you want to use and populate it with your **presentation title**, and if you want, **your name** and **email address** as well as anything else you'd like to put on it (maybe the conference name, class name, or group you're presenting to).
-<img src="images/nblm-slide-title.png" style="width:800px;padding:10px;border: 1px solid #555;" alt="Title slide">
-2. Feel free to delete any of the template slides that don't fit the look or feel you want for your presentation. As you can see in the image above, I deleted all but four of the template slides on the left-hand side of the screen for my presentation.
-3. Now let's create an image for your title slide:
-  - Let's go to the [Meta.ai](https://www.meta.ai/){:target="_blank"} website to create an image for the title slide (as of January 2025 Google's free Gemini image creator is not nearly as good as the free Meta.ai image generator). **NOTE**: You'll need to log in to Meta.ai using either a Facebook or Instagram account to create images.
-  - **Copy** and **Paste** the following prompt into Meta.ai chat box and press **Enter** on your keyboard to create an image for your title slide: ```Create an image of a happy student with a badge that represents achievement.```<br>
-<img src="images/nblm-meta-image-1.png" style="width:800px;padding:10px;border: 1px solid #555;" alt="Meta.ai creating images of students with badges">
-  - **Right mouse click** on the image you'd like to use and then select **Copy Image**. Note: Browsers other than Google's Chrome browser might use slightly different language from "Copy Image."
-  - Go to the title slide in your presentation and **Paste** the image you just created onto the slide. Then move, resize and crop the image. See the video below for details on how to [create, copy, paste, move, resize & crop an image](https://www.youtube.com/watch?v=qCegOGderKA){:target="_blank"}<br>
-<iframe width="780" height="500" src="https://www.youtube.com/embed/qCegOGderKA" title="Create an Image for my Presentation using Meta.ai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+1. **Si completaste la primera actividad del taller**: Usa el cuaderno de la primera actividad con los 3 artículos sobre insignias digitales. Para ello:
+   <img src="images/5-nblm-logo.png" style="float:right;width:80px;padding:10px;" alt="Logo NotebookLM">
 
-> **Reflection**: Are there any potential drawbacks or problems you can think of when creating images for your presentations using GenAI tools?
+- Vuelve a la página principal de NotebookLM con los 3 artículos haciendo clic en el **logo circular negro de NotebookLM** en la parte superior izquierda de la aplicación.
+  <img src="images/5-notebook-button.png" style="float:right;width:300px;padding:10px;" alt="Botón NotebookLM">
+- Luego haz clic en el cuaderno **El ecosistema de insignias digitales en bibliotecas** para usarlo en esta actividad.
 
-## Build All Other Presentation Slides & Speaker Notes
-Now we'll create the rest of the slides for the presentation by repeating the steps in this section for each of the remaining slides to be created: 
-- Creating new slides using a template slide
-- Add the slide title/text to the new slide
-- Add the speaker's notes
-- Create an image to go along with the title and speaker notes
-  
-1. Duplicate a template slide:
-   - **Right-mouse click** on the slide you want to duplicate.
-   - Select **Duplicate slide** from the popup menu.
-<img src="images/nblm-slide-duplicate3.png" style="width:800px;padding:10px;border:1px solid #555;" alt="Directions on how to duplicate a template slide">
-2. Add the title and text to the slide by doing the following:
-   - Copy the suggested slide title from the document where you saved NotebookLM's suggestions.
-<img src="images/nblm-slide-title2.png" style="width:700px;padding:10px;border:1px solid #555;" alt="Slide suggested title">
-  - Paste the title text into the title block at the top left of the slide.
-  - **Note**: It is often helpful when pasting to **Paste & match style...**
-<img src="images/nblm-slide-title-ppt.png" style="width:800px;padding:10px;border:1px solid #555;" alt="Slide suggested title on the slide"><br>
-3. Add the speaker notes to the slide by doing the following:
-   - Copy the suggested speaker notes from the document where you saved NotebookLM's suggestions.
-<img src="images/nblm-slide-notes.png" style="width:700px;padding:10px;border:1px solid #555;" alt="Slide suggested speaker notes text"><br>
-   - Paste the speaker note text into the speaker note area below the slide.
-<img src="images/nblm-slide-notes-ppt.png" style="width:800px;padding:10px;border:1px solid #555;" alt="Slide suggested speaker notes on the slide"><br>
-5. Create an image for the slide by:
-   - Delete the current image, by **selecting the image** and pressing the **delete** button on your keyboard.
-   - Copy the suggested prompt from the document where you saved NotebookLM's suggestions.
-<img src="images/nblm-slide-image-prompt.png" style="width:700px;padding:10px;border:1px solid #555;" alt="Prompt for GenAI generated image."><br>
-   - **Paste** the prompt into Meta.ai chat box and press **Enter** on your keyboard to create an image for the slide.<br>
-<img src="images/nblm-meta-image-1.png" style="width:800px;padding:10px;border: 1px solid #555;" alt="Meta.ai creating images of students with badges"><br>
-   - If none of the images it generates look like they are not a good fit for your slide, feel free to make follow-up prompts to fine-tune the images generated. For example, you might want to use a follow-up prompt like this: ```Make the badges larger and more colorful```
-   - Once you have a badge you're happy with, **Right mouse click** on the image you'd like to use and then select **Copy Image**. Note: Browsers other than Google's Chrome browser might use slightly different language from "Copy Image."
-   - Go to the slide in your presentation and **Paste** the image you just created onto the slide. Then move, resize and crop the image.
-6. **Review the slide title, image and speaker notes to make sure that they all are**:
-   - **Accurate**: Are there any factual errors in the text or title? Do you know enough about the topic to catch any factual errors without referring to the source journal article? If not then you'd be wise to go back into NotebookLM and click on the associated citations for the claims you need to verify.
-   - **Appropriateness**: Is the image generated appropriate and related enough to the title and speaker notes that it reinforces the message you are trying to communicate and is not distracting from the message? If the image is not reinforcing your message, you could try some new prompts, or to websites that have royalty-free images like [Pexels](htps://pexels.com){:target="_blank"} or [Unspash.com](https://unsplash.com){:target="_blank"}. 
-7. Repeat this process for each slide until you've finished creating the presentation.
+2. **Si no completaste la primera actividad**, ¡no te preocupes! Realiza primero estos dos pasos y luego regresa aquí:
 
-## Reflection
-**Title generation**:
->  - Would creating the title for the presentation using NotebookLM save you time? 
->  - Are you happy with the quality level of the titles NotebookLM generated?
+- [Iniciar sesión en NotebookLM](1-nblm-notebook.md#create-a-notebook--add-documents-to-it){:target="\_blank"}
+- [Crear un cuaderno y agregar documentos](1-nblm-notebook.md#create-a-notebook--add-documents-to-it){:target="\_blank"}
 
-**Text generation**:
+3. A diferencia de la primera actividad, aquí solo usaremos uno de los artículos para crear la presentación (en PowerPoint o Google Slides). Esto simula el caso típico de transformar un trabajo propio en una presentación.
+   <img src="images/5-one-article-selected.png" style="float:right;width:300px;padding:10px;border: 1px solid #555;" alt="Solo un artículo seleccionado">
 
->  - Would creating the text summary of the presentation using NotebookLM save you time? 
->  - How much editing of the text would you need to do to get it to a quality level you’d be happy with (if any)?
->  - Were there any factual errors in the presentation text?
->  - Are there any major points or concepts that NotebookLM missed?
+- Haz clic en las casillas junto a **badge-article-2.pdf** y **badge-article-3.pdf** para desmarcarlas y que NotebookLM solo use el artículo restante.
 
-**Image generation**:
+4. Si aún no tienes un archivo de PowerPoint o Google Slides para ir guardando las sugerencias de NotebookLM, créalo ahora.
+   - Si lo deseas, puedes usar una [plantilla de presentación de UVic](https://docs.google.com/presentation/d/1fuhWOJu_sq0ivUTY1Ul2h0t7Kff2wZZ0Y5NSnEMh0bY/template/preview){:target="\_blank"} en Google Slides, o crear tu propia plantilla. Asegúrate de haber iniciado sesión en tu cuenta de Google antes de hacer clic en **Usar plantilla**.
+   - Si usas la plantilla UVic, puedes elegir entre los tres estilos disponibles.
 
->  - Would creating the images for the presentation save you time?
->  - Are you happy with the quality of the images?
->  - What other options do you have to include imagery in your presentations?
->  - Are there any potential moral and legal issues around the images, videos, audio and text the GenAI companies are using for training data?
+## Títulos llamativos para la presentación
 
-[NEXT STEP: NEXT ACTIVITY HERE](6-NEW-LINK-HERE.html){: .btn .btn-blue }
+Empieza tu presentación con un título atractivo. Pídele sugerencias a NotebookLM:
+
+1. En el chat copia y pega: `Sugiere títulos llamativos y atractivos para mi presentación en un congreso académico, dirigida a colegas académicos.`
+   - ¿Las sugerencias son adecuadas y atractivas para tu audiencia?
+   - Si ninguna te convence, pide: `Dame 5 títulos sugeridos de máximo 6 palabras.`
+   - Copia el título que más te guste y pégalo en la diapositiva de título de tu presentación. Ejemplo: _Insignias como evidencia de logros y habilidades_.
+
+## Crear notas del presentador a partir de un artículo
+
+Ahora pide a NotebookLM ideas para notas del presentador, con texto mínimo en cada diapositiva. La investigación muestra que las diapositivas con mucho texto son menos efectivas que aquellas con título, imagen y poco texto, narradas por el presentador. Por eso, pide títulos de diapositiva y notas detalladas para el presentador:
+
+1. En el chat copia y pega: `Crea una presentación de 10 minutos, con títulos de diapositiva y notas detalladas para el presentador, usando texto mínimo en las diapositivas. La audiencia son estudiantes de posgrado y profesores. Comienza con una historia interesante. Usa tantas diapositivas como sea necesario, prefiero usar muchas imágenes grandes.`
+2. Copia las notas sugeridas y pégalas en tu documento de trabajo:
+   - Lo más fácil es hacer clic en el botón **Copiar** al final del chat y luego **Pegar** en un Google Doc o Word para editar el texto.
+   - Haz clic en **Guardar en nota** a la izquierda para conservar el chat.
+     <img src="images/5-copy-save.png" style="width:600px;padding:10px;border: 1px solid #555;" alt="Copiar texto y guardar nota">
+3. Ahora que tienes el esquema editable, personaliza el contenido, el orden y corrige errores. Pregúntate:
+   > - ¿Qué está bien logrado?
+   > - ¿Qué falta o está mal?
+   > - ¿Qué errores hay?
+   > - ¿NotebookLM te ahorra tiempo frente a hacerlo desde cero?
+   > - ¿Qué cambios necesitas hacer al texto sugerido?
+   >   <img src="images/5-note-title.png" style="float:right;width:350px;padding:10px;border: 1px solid #555;" alt="Título de la nota">
+4. Si guardaste la nota, aparecerá en el panel "Studio" a la derecha. El título generado fue, por ejemplo, "**Insignias digitales: empoderando...**"
+
+## Construir y personalizar la diapositiva de título y notas
+
+Ya tienes un título y un esquema con notas. Ahora crea y personaliza la presentación en Google Slides o PowerPoint:
+
+1. Selecciona la diapositiva de título y complétala con el **título**, tu **nombre** y **correo** si lo deseas, además de otros datos relevantes (nombre del congreso, clase, grupo, etc.).
+   <img src="images/nblm-slide-title.png" style="width:800px;padding:10px;border: 1px solid #555;" alt="Diapositiva de título">
+2. Elimina las diapositivas de la plantilla que no se ajusten a tu estilo. Por ejemplo, puedes dejar solo cuatro diapositivas.
+3. Ahora crea una imagen para la diapositiva de título:
+
+- Ve a [Meta.ai](https://www.meta.ai/){:target="\_blank"} para crear una imagen (en 2025, el generador de imágenes de Meta es mejor que el de Gemini). **NOTA**: Necesitas iniciar sesión con Facebook o Instagram.
+- Copia y pega este prompt en Meta.ai: `Crea una imagen de un estudiante feliz con una insignia que represente logro.`
+  <img src="images/nblm-meta-image-1.png" style="width:800px;padding:10px;border: 1px solid #555;" alt="Meta.ai creando imágenes de estudiantes con insignias">
+- Haz clic derecho en la imagen que prefieras y selecciona **Copiar imagen**.
+- Pega la imagen en la diapositiva de título y ajústala. Mira este video para detalles sobre [crear, copiar, pegar, mover, redimensionar y recortar una imagen](https://www.youtube.com/watch?v=qCegOGderKA){:target="\_blank"}<br>
+<iframe width="780" height="500" src="https://www.youtube.com/embed/qCegOGderKA" title="Crear imagen para mi presentación con Meta.ai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> **Reflexión**: ¿Ves posibles inconvenientes o problemas al crear imágenes para presentaciones con GenAI?
+
+## Crear el resto de diapositivas y notas
+
+Crea el resto de las diapositivas repitiendo estos pasos:
+
+- Duplica una diapositiva de la plantilla
+- Añade el título/texto
+- Añade las notas del presentador
+- Crea una imagen relacionada
+
+1. Duplica una diapositiva:
+   - Haz clic derecho sobre la diapositiva y selecciona **Duplicar diapositiva**.
+     <img src="images/nblm-slide-duplicate3.png" style="width:800px;padding:10px;border:1px solid #555;" alt="Cómo duplicar una diapositiva">
+2. Añade el título y texto copiando desde tu documento de trabajo.
+   <img src="images/nblm-slide-title2.png" style="width:700px;padding:10px;border:1px solid #555;" alt="Título sugerido">
+
+- Pega el título en el bloque superior izquierdo de la diapositiva.
+- Es útil usar **Pegar y coincidir estilo...**
+  <img src="images/nblm-slide-title-ppt.png" style="width:800px;padding:10px;border:1px solid #555;" alt="Título sugerido en la diapositiva"><br>
+
+3. Añade las notas del presentador:
+   - Copia las notas desde tu documento de trabajo.
+     <img src="images/nblm-slide-notes.png" style="width:700px;padding:10px;border:1px solid #555;" alt="Notas del presentador"><br>
+   - Pega las notas en el área de notas bajo la diapositiva.
+     <img src="images/nblm-slide-notes-ppt.png" style="width:800px;padding:10px;border:1px solid #555;" alt="Notas del presentador en la diapositiva"><br>
+4. Crea una imagen para la diapositiva:
+   - Elimina la imagen actual si la hay.
+   - Copia el prompt sugerido desde tu documento de trabajo.
+     <img src="images/nblm-slide-image-prompt.png" style="width:700px;padding:10px;border:1px solid #555;" alt="Prompt para imagen GenAI"><br>
+   - Pega el prompt en Meta.ai para crear la imagen.<br>
+     <img src="images/nblm-meta-image-1.png" style="width:800px;padding:10px;border: 1px solid #555;" alt="Meta.ai creando imágenes"><br>
+   - Si ninguna imagen te convence, ajusta el prompt (por ejemplo: "Haz las insignias más grandes y coloridas").
+   - Copia y pega la imagen en la diapositiva y ajústala.
+5. Revisa cada diapositiva, imagen y notas para asegurarte de que:
+   - **Sean precisas**: ¿Hay errores? ¿Puedes verificar los datos?
+   - **Sean apropiadas**: ¿La imagen refuerza el mensaje? Si no, prueba nuevos prompts o usa imágenes libres de derechos como [Pexels](https://pexels.com){:target="\_blank"} o [Unsplash](https://unsplash.com){:target="\_blank"}.
+6. Repite el proceso para cada diapositiva hasta terminar la presentación.
+
+## Reflexión
+
+**Generación de títulos:**
+
+> - ¿NotebookLM te ahorra tiempo creando el título?
+> - ¿Estás satisfecho con la calidad de los títulos sugeridos?
+
+**Generación de texto:**
+
+> - ¿NotebookLM te ahorra tiempo resumiendo el texto?
+> - ¿Cuánto necesitas editar para alcanzar la calidad deseada?
+> - ¿Hay errores en el texto?
+> - ¿Faltan conceptos clave?
+
+**Generación de imágenes:**
+
+> - ¿NotebookLM te ahorra tiempo creando imágenes?
+> - ¿Te convence la calidad de las imágenes?
+> - ¿Qué otras opciones tienes para añadir imágenes?
+> - ¿Ves problemas éticos o legales con el uso de imágenes, videos, audio y texto generados por GenAI?
+
+[SIGUIENTE PASO: Próxima actividad](6-NEW-LINK-HERE.md){: .btn .btn-blue }

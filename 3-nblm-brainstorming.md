@@ -1,72 +1,88 @@
 ---
 layout: default
-title: 3 - RQ Brainstorming
+title: 3 - Lluvia de ideas para preguntas de investigación
 nav_order: 8
 parent: Workshop Activities
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
---- 
-# Brainstorming & Ideation for Research Questions
-<img src="images/nblm-brain-storm.jpeg" style="float:right;width:400px;padding:10px;" alt="Brainstorm visualization">
-In this activity, we'll explore how GenAI can help you explore a group of journal articles and a video for gaps in the literature and potential research questions to fill those gaps or explore a related topic. 
+---
 
-> NOTE: Like all other Generative AI tools, NotebookLM will sometimes make mistakes, although because you are providing it with training data, it will likely make fewer mistakes than general purpose Generative AI tools. Always research any factual claims it makes if you are not a subject area expert. 
+# Lluvia de ideas e ideación para preguntas de investigación
 
-If you have any questions or get stuck as you work through this exercise, please ask the instructor for assistance.
+<img src="images/nblm-brain-storm.jpeg" style="float:right;width:400px;padding:10px;" alt="Visualización lluvia de ideas">
+En esta actividad, exploraremos cómo GenAI puede ayudarte a identificar vacíos en la literatura y generar preguntas de investigación a partir de un grupo de artículos científicos y un video.
 
-## Getting Started
-Let's go back to the notebook with the three journal articles we've already created, and add a YouTube video to the notebook so that there will be four items for NotebookLM to draw information from:
+> NOTA: Como todas las herramientas de IA generativa, NotebookLM a veces comete errores, aunque al proporcionarle datos de entrenamiento, probablemente cometa menos errores que herramientas de IA generalistas. Siempre verifica cualquier afirmación factual si no eres experto en el tema.
 
-1. Click on the **NotebookLM logo** on the top right of the screen, which will take you out of the current notebook and to the main NotebookLM screen.
-2. Click on the **The Digital Badge Ecosystem in Libraries** notebook.
-4. Click on the **Add Source** button above the list of journal articles in this notebook.<br>
-<img src="images/nblm-new-source2.png" style="width:300px;padding:10px;" alt="Adding a new source document to NotebookLM"><br>
-5. Click on the **YouTube** button in the bottom middle of the page.<br>
-<img src="images/nblm-new-youtube.png" style="width:300px;padding:10px;" alt="Adding a YouTube video to a NotebookLM notebook"><br>
-7. Next **paste the following web address** into the text box: ```https://www.youtube.com/watch?v=zdJM7gJAJiw```<br>
-<img src="images/nblm-youtube-url.png" style="width:600px;padding:10px;" alt="Adding a YouTube URL"><br>
+Si tienes preguntas o te atoras durante el ejercicio, por favor pide ayuda al instructor.
 
-## Initial Exploration  
-1. Create a list of possible limitations or gaps in the articles and video by typing the following into the chat box and press Enter: ```What are the most significant limitations or gaps mentioned in these studies?```
-  > - **Reflection**: Do the limitations and gaps look reasonable?
-2. Identify some possible surprising or counterintuitive insights from the journal articles and video by typing the following into the chat box and press Enter: ```Extract 2-3 surprising or counterintuitive insights from these journal articles.```
-  - **Reflection**: Are the insights supported by the citations that link to the parts of the article that support the insights?
-3. Identify contradictory findings or interpretations between these journal articles. Type the following into the chat box and press Enter: ```Identify any contradictory findings or interpretations between these studies.```
-  - **Reflection**: Are the contradictory findings supported by the citations?
-4. Identify common themes or research questions shared by these articles. Type the following into the chat box and press Enter: ```What common themes or research questions emerge when examining these articles together?```
-  - **Reflection**: Do the themes and research questions look reasonable based on what you've read in the articles?
+## Primeros pasos
 
-## Research Question Generation  
-1. Create a list of possible research questions by typing the following into the chat box and press Enter: ```Based on the limitations and gaps mentioned in all three journal articles, propose 3-4 potential research questions that could address these gaps.```
-  > - **Reflection**: Do the research questions look reasonable?
-2. Suggest interdisciplinary research questions that combine methodological approaches from these articles by typing the following into the chat box and press Enter: ```Suggest interdisciplinary research questions that combine methodological approaches from all sources.```
-  > - **Reflection**: Do these research questions look more or less interesting to you than the research questions generated by the previous prompt?
-3. Ask for an emerging list of research areas or technologies that could provide new insights by typing the following into the chat box and press Enter: ```What emerging research areas or technologies could provide new insights into the topics covered in all the sources?```
-  > - **Reflection**: Do any of the technologies and/or research areas suggested seem like interesting avenues of research from your perspective?
+Volvamos al cuaderno con los tres artículos científicos que ya creamos y agreguemos un video de YouTube para que NotebookLM tenga cuatro fuentes de información:
 
-## Refinement and Evaluation
-1. Look at all the research questions generated in the previous three prompts and choose 3 of the strongest research questions and then include them in the following prompt (don't forget to **replace Questions A, B, and C with your research questions**):
-```Evaluate these research questions against the following criteria: originality, feasibility, and potential impacts:```<br>
-```  - Question A```<br>
-```  - Question B```<br>
-```  - Question C```<br>
-  > - **Reflection**: How do the critiques for each question look to you?
-  > - **Reflection**: Do any of the critiques change your evaluation of how good they are a research questions?
-2. Ask NotebookLM to suggest potential methodological approaches for addressing each research question you used in step 1 above (replacing QUESTION A, B, & C with your questions):
-  - ```Suggest potential methodological approaches for addressing each generated research question: QUESTION A```<br>
-  - ```Suggest potential methodological approaches for addressing each generated research question: QUESTION B```<br>
-  - ```Suggest potential methodological approaches for addressing each generated research question: QUESTION C```<br>
-3. Next let's see if we can identify any potential challenges or limitations for each research question in turn:
-  - ```Suggest potential methodological approaches for addressing each generated research question: QUESTION A```<br>
-  - ```Suggest potential methodological approaches for addressing each generated research question: QUESTION B```<br>
-  - ```Suggest potential methodological approaches for addressing each generated research question: QUESTION C```<br>
+1. Haz clic en el **logo de NotebookLM** en la parte superior derecha para salir del cuaderno actual y volver a la pantalla principal.
+2. Haz clic en el cuaderno **El ecosistema de insignias digitales en bibliotecas**.
+3. Haz clic en el botón **Agregar fuente** sobre la lista de artículos.<br>
+   <img src="images/nblm-new-source2.png" style="width:300px;padding:10px;" alt="Agregar nueva fuente NotebookLM"><br>
+4. Haz clic en el botón **YouTube** en la parte inferior central.<br>
+   <img src="images/nblm-new-youtube.png" style="width:300px;padding:10px;" alt="Agregar video de YouTube"><br>
+5. Pega la siguiente dirección web en el cuadro de texto: `https://www.youtube.com/watch?v=zdJM7gJAJiw`<br>
+   <img src="images/nblm-youtube-url.png" style="width:600px;padding:10px;" alt="Agregar URL de YouTube"><br>
 
-## OPTIONAL: Work Through This Activity With Your Own Topic!
-If you have a research topic of your own in mind and have found some articles related to the topic, you might want to try working through this activity from the beginning on your own in a new notebook with your own articles. If you have any problems or questions, please ask the workshop instructor for support.
+## Exploración inicial
 
-> ## Workshop Tips Review:
-> - Use clear, specific prompts
-> - Iterate and refine questions
-> - Consider multiple perspectives
-> - Be open to unexpected insights
+1. Crea una lista de posibles limitaciones o vacíos en los artículos y el video escribiendo en el chat: `¿Cuáles son las limitaciones o vacíos más importantes mencionados en estos estudios?`
+   > - **Reflexión**: ¿Las limitaciones y vacíos parecen razonables?
+2. Identifica hallazgos sorprendentes o contraintuitivos escribiendo: `Extrae 2-3 hallazgos sorprendentes o contraintuitivos de estos artículos.`
 
-[NEXT STEP: Summarize Short Answer Survey Feedback](4-nblm-summarize-survey-text.html){: .btn .btn-blue }
+- **Reflexión**: ¿Los hallazgos están respaldados por citas?
+
+3. Identifica hallazgos o interpretaciones contradictorias escribiendo: `Identifica hallazgos o interpretaciones contradictorias entre estos estudios.`
+
+- **Reflexión**: ¿Las contradicciones están respaldadas por citas?
+
+4. Identifica temas comunes o preguntas de investigación compartidas escribiendo: `¿Qué temas o preguntas de investigación comunes surgen al analizar estos artículos juntos?`
+
+- **Reflexión**: ¿Los temas y preguntas parecen razonables según lo que has leído?
+
+## Generación de preguntas de investigación
+
+1. Crea una lista de posibles preguntas de investigación escribiendo: `Con base en las limitaciones y vacíos de los tres artículos, propone 3-4 preguntas de investigación que puedan abordarlos.`
+   > - **Reflexión**: ¿Las preguntas propuestas son razonables?
+2. Sugiere preguntas interdisciplinarias escribiendo: `Sugiere preguntas de investigación interdisciplinarias que combinen enfoques metodológicos de todas las fuentes.`
+   > - **Reflexión**: ¿Estas preguntas te parecen más o menos interesantes que las anteriores?
+3. Pide áreas o tecnologías emergentes escribiendo: `¿Qué áreas o tecnologías emergentes podrían aportar nuevas perspectivas sobre los temas tratados en todas las fuentes?`
+   > - **Reflexión**: ¿Alguna tecnología o área sugerida te parece interesante para investigar?
+
+## Refinamiento y evaluación
+
+1. Elige 3 de las mejores preguntas generadas y evalúalas con el siguiente prompt (reemplaza Pregunta A, B y C por tus preguntas):
+   `Evalúa estas preguntas de investigación según originalidad, viabilidad e impacto potencial:`
+   `  - Pregunta A`
+   `  - Pregunta B`
+   `  - Pregunta C`
+   > - **Reflexión**: ¿Qué opinas de las críticas a cada pregunta?
+   > - **Reflexión**: ¿Alguna crítica cambia tu evaluación sobre la calidad de las preguntas?
+2. Pide enfoques metodológicos para cada pregunta:
+
+- `Sugiere enfoques metodológicos para abordar la pregunta de investigación: PREGUNTA A`
+- `Sugiere enfoques metodológicos para abordar la pregunta de investigación: PREGUNTA B`
+- `Sugiere enfoques metodológicos para abordar la pregunta de investigación: PREGUNTA C`
+
+3. Identifica posibles retos o limitaciones para cada pregunta:
+
+- `¿Qué retos o limitaciones podrían surgir al abordar la pregunta: PREGUNTA A?`
+- `¿Qué retos o limitaciones podrían surgir al abordar la pregunta: PREGUNTA B?`
+- `¿Qué retos o limitaciones podrían surgir al abordar la pregunta: PREGUNTA C?`
+
+## OPCIONAL: Realiza la actividad con tu propio tema
+
+Si tienes un tema de investigación propio y artículos relacionados, puedes realizar esta actividad desde el principio en un cuaderno nuevo. Si tienes dudas, pide apoyo al instructor.
+
+> ## Recomendaciones para el taller:
+>
+> - Usa prompts claros y específicos
+> - Itera y refina tus preguntas
+> - Considera múltiples perspectivas
+> - Mantente abierto a ideas inesperadas
+
+[SIGUIENTE PASO: Resumir respuestas abiertas de encuestas](4-nblm-summarize-survey-text.md){: .btn .btn-blue }

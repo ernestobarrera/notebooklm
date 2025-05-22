@@ -1,13 +1,15 @@
 ---
 layout: default
 nav_order: 20
-title: Land acknowledgement 
+title: Reconocimiento de territorio
 ---
-# Land acknowledgement
 
-We acknowledge the Indigenous lands where we are located.    
+# Reconocimiento de territorio
 
-We acknowledge and respect the Lək̓ʷəŋən (Songhees and Xʷsepsəm/Esquimalt) Peoples on whose territory the university stands, and the Lək̓ʷəŋən and W̱SÁNEĆ Peoples whose historical relationships with the land continue to this day.
+Reconocemos que nos encontramos en tierras indígenas.
+
+Reconocemos y respetamos a los Pueblos Lək̓ʷəŋən (Songhees y Xʷsepsəm/Esquimalt), en cuyo territorio se ubica la universidad, así como a los Pueblos Lək̓ʷəŋən y W̱SÁNEĆ, cuyas relaciones históricas con la tierra continúan hasta el día de hoy.
+
 <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=48.4634,-123.3117" style="width:100%; height:500px; border:none;"></iframe>
 
-Visit [native-land.ca](https://native-land.ca/) to explore the indigenous territories, languages, and treaties in your area.
+Visita [native-land.ca](https://native-land.ca/) para explorar los territorios, lenguas y tratados indígenas en tu región.
