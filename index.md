@@ -42,5 +42,5 @@ Este taller forma parte de nuestro itinerario de formación en IA generativa. Lo
 - **[Talleres Avanzados de GenAI](https://uviclibraries.github.io/genai-pathway/#intermediate-workshops){:target=\"_blank\"}**
 
 ---
-
+.
 > **Créditos:** Basado en [genai-notebooklm](https://github.com/uviclibraries/genai-notebooklm) (Uvic Libraries) bajo licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Traducción y adaptación: Ernesto Barrera.
