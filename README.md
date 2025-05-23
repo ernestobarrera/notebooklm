@@ -1,6 +1,6 @@
 # GenAI: NotebookLM como herramienta personal para investigación y productividad (_Intermedio_)
 
-### Digital Scholarship Commons, UVic Libraries
+### Fuente: Digital Scholarship Commons, UVic Libraries
 
 Enlace al taller: https://uviclibraries.github.io/genai-notebooklm/
 
